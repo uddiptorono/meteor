@@ -1,0 +1,232 @@
+ /*
+    GLOBAL START     =================================================================== 
+  */
+*{
+  transition: .5s;
+}
+.button{
+  color: #A2CF8D;
+  border-radius: 50px; 
+  margin:5px;
+}
+.button:hover{
+  color:#A2CF8D;
+}
+
+ /*
+    GLOBAL END     =================================================================== 
+  */
+
+ /*
+    NAV START     =================================================================== 
+  */
+nav{
+  width:100%;
+  height:60px;
+  background: rgba(173, 216, 230, 0);
+  position: fixed;
+}
+.logo{
+  float: left;
+  padding-top:13px;
+}
+nav ul{
+  float:right;
+  margin-bottom:0px;
+}
+nav ul li{
+  float: left;
+  list-style: none;
+}
+nav ul li a{
+  text-transform:uppercase;
+  display: block;
+  text-decoration: none;
+  padding:18px;
+}
+nav ul li a:hover{
+  text-decoration:none;
+}
+
+ /*
+    NAV END     =================================================================== 
+  */
+
+
+ /*
+    DISPLAY START     =================================================================== 
+  */
+.display{
+  width:100%;
+  height:700px;
+  background-image: url("../img/slide_01.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+.item-container{
+  width:600px;
+  height: 200px;
+  text-align: center;
+}
+ /*
+    DISPLAY END     =================================================================== 
+  */
+
+ /*
+    SERVICE START     =================================================================== 
+  */
+
+.service{
+  width:100%;
+  min-height:450px;
+  background: rgba(0, 0, 0, 0.027);
+  text-align: center;
+  cursor: pointer;
+}
+
+.service-item{
+  height:250px;
+  background: rgb(255, 255, 255);
+  padding:6px;
+  box-shadow: 0px 0px 10px  rgba(51, 51, 51, 0.52);
+  margin:15px 0px;
+}
+.service h4{
+  padding:70px 0px 20px 0px;
+}
+.service-item i{
+  font-size:50px;
+  padding:40px 0px 10px 0px;
+  color:#a2cf8d;
+}
+.service-item p{
+  color:#333;
+}
+.service-item:hover{
+  background:#A2CF8D;
+}
+.service-item:hover *{
+  color:white;
+}
+ /*
+    SERVICE END     =================================================================== 
+  */
+
+ /*
+    OFFER START     =================================================================== 
+  */
+
+.offer{
+  min-height:500px;
+  background-image: url("../img/what-we-do-bg.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.offer-item{
+  padding-top:70px;
+  color:#fff;
+}
+.offer-item P{
+  font-size:14px;
+}
+
+ /*
+    OFFER END     =================================================================== 
+  */
+
+
+  /*
+    BLOG START     =================================================================== 
+  */
+
+.blog{
+  min-height:800px;
+  background-image: url("../img/blog-bg.png");
+}
+.blog h5{
+  padding:80px;
+}
+.padding{
+  padding-bottom: 29px;
+}
+
+ /*
+    BLOG END     =================================================================== 
+  */
+
+   /*
+    ACHIVEMENTS START     =================================================================== 
+  */
+
+.achivements{
+  min-height:250px;
+  background:rgb(255, 255, 255);
+}
+.achived{
+    background:rgba(51, 51, 51, 0.041);
+    height:150px;
+  }
+.achived p{
+  color:rgba(51, 51, 51, 0.644);
+}
+.number{
+    font-size:50px;
+    color:#a2cf8d;
+  }
+
+  /*
+    ACHIVEMENTS END     =================================================================== 
+  */
+
+  /*
+    CONTACT US START    =================================================================== 
+                    
+  */
+
+  .contact{
+    background-image: url("../img/contact-bg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+  }
+.form{
+  width:100%;
+}
+
+  /*
+    CONTACT US END     =================================================================== 
+  */
+
+  /* 
+    FOOTER START     ===================================================================
+  */
+
+  .footer{
+    min-height:60px;
+    background: #202628;
+  }
+  .icon{
+    float: left;
+  }
+  .icon i{
+    font-size:17px;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background: #a2cf8d;
+    text-align: center;
+    padding-top:12px;
+    color:black;
+    margin:2px;
+    margin-top:7px;
+  }
+  .icon i:hover{
+    background: #3c5e3c;
+  }
+    /* 
+    FOOTER END     ===================================================================
+  */
